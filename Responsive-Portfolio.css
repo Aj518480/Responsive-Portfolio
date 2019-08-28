@@ -10,6 +10,7 @@ header{
     background-color:#ffffff;
     font-family: 'Georgia','Times New Roman', Times, serif;
 
+
 }
 
  .headercontainer{
@@ -71,5 +72,21 @@ footer{
     border-top:solid #4aaaa5 10px;
     padding-top:10px;
     color:#ffffff;
-     position:sticky;
+     position:fixed;
 }
+@media only screen and (max-width: 980px) {
+}
+    @media only screen and (max-width: 768px) {
+     
+    }
+          
+            @media only screen and (max-width: 640px) {
+                .footer{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                color: white;
+                text-align: center;   
+            }
+        }
